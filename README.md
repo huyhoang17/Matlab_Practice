@@ -5,6 +5,8 @@
 
 - Lagrange :heavy_check_mark:
 
+- Newton tiến, lùi: :heavy_check_mark:
+
 
 ## 2. Giải gần đúng phương trình
 
