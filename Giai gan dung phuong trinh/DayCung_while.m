@@ -1,4 +1,4 @@
-function [x,k]=DayCung_while(f,a,b,x0,err,kmax)
+function [x,k] = DayCung_while(f, a, b, x0, err, kmax)
 % f: ham so can xap xi
 % (a,b): khoang phan ly
 % err: dieu kien dung (sai so tuong doi)
@@ -40,6 +40,6 @@ else
   end
 end
 
-% format too long :v
+x = double(x);
 % disp(x);
 end

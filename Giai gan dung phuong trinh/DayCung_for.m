@@ -1,4 +1,4 @@
-function [x,k]=DayCung_for(f,a,b,x0,err,kmax)
+function [x, k] = DayCung_for(f, a, b, x0, err, kmax)
 % fun: ham so can xap xi
 % (a,b): khoang phan ly
 % err: dieu kien dung (sai so tuong doi)
@@ -37,11 +37,14 @@ elseif fb == 0
 else
     for k = 1:kmax
         x = x0;
-        x0 = x0-(d-x0)*feval(f,x0)/(fd-feval(f,x0));
+        x0 = x0-(d-x0) * feval(f, x0) / (fd - feval(f, x0));
         if abs(x-x0) < err
-            x=x0;
+            x = x0;
             break;
         end
     end
 end
+
+% if format too long, then convert `x` to double
+% x = double(x)
 end
