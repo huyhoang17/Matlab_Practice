@@ -18,13 +18,13 @@
 
 ## 3. Giải gần đúng hệ phương trình 
 
-- Lặp đơn X
-
 - Jacobi :heavy_check_mark:
 
 - Gauss - Seidel :heavy_check_mark:
 
--  Newton giải hệ phương trình phi tuyến  X
+- Newton giải hệ phương trình phi tuyến 2 chiều X
+
+- Newton giải hệ phương trình phi tuyến 3 chiều X
 
 ## 4. Giải gần đúng phương trình vi phân thường
 
@@ -34,10 +34,14 @@
 
 - RK3, RK4 :heavy_check_mark:
 
-- Hệ phương trình vi phân thường và vi phân cấp cao
+- Hệ phương trình Lorenz 3 PT sử dụng RK4 :heavy_check_mark:
 
 
 Phụ lục
 ---
 
+__Format code__
 > http://stackoverflow.com/questions/23960822/how-can-i-reformat-code-in-matlab-editor
+
+__Lorenz system__
+>  https://en.wikipedia.org/wiki/Lorenz_system
