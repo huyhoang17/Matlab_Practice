@@ -45,3 +45,13 @@ __Format code__
 
 __Lorenz system__
 >  https://en.wikipedia.org/wiki/Lorenz_system
+
+
+Bài tập môn phương pháp tính và Matlab, các thành viên trong nhóm:
+---
+
+1. Phan Huy Hoàng - TT2
+2. Nguyễn Thế Hùng - TT2
+3. Nguyễn Văn Thành Dũng - TT2
+4. Trần Thị Thanh Tâm - TT2
+5. Trương Khánh Toàn - TT1
