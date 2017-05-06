@@ -22,9 +22,9 @@
 
 - Gauss - Seidel :heavy_check_mark:
 
-- Newton giải hệ phương trình phi tuyến 2 chiều X
+- Newton giải hệ phương trình phi tuyến 2 chiều :heavy_check_mark:
 
-- Newton giải hệ phương trình phi tuyến 3 chiều X
+- Newton giải hệ phương trình phi tuyến 3 chiều :heavy_check_mark:
 
 ## 4. Giải gần đúng phương trình vi phân thường
 
