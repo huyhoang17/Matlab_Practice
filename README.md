@@ -36,6 +36,7 @@
 
 - Hệ phương trình Lorenz 3 PT sử dụng RK4 :heavy_check_mark:
 
+## 5. Phương pháp sai phân - Phương trình truyền nhiệt :heavy_check_mark:
 
 Phụ lục
 ---
