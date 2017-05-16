@@ -38,6 +38,9 @@
 
 ## 5. Phương pháp sai phân - Phương trình truyền nhiệt :heavy_check_mark:
 
+- Contributor: [hungad96](https://github.com/hung96ad)
+
+---
 Phụ lục
 ---
 
