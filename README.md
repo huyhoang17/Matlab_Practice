@@ -59,3 +59,8 @@ Bài tập môn phương pháp tính và Matlab, các thành viên trong nhóm:
 3. Nguyễn Văn Thành Dũng - TT2
 4. Trần Thị Thanh Tâm - TT2
 5. Trương Khánh Toàn - TT1
+
+TODO
+---
+
+- Python Version
