@@ -32,8 +32,10 @@ dx = -subs(f, x0) / subs(df, x0);
 k = 1;
 while abs(dx) > tol && k < kmax
     dx = -subs(f, x0) / subs(df, x0);
-    x = x0 + dx;
-    x0 = x;
+    % x = x0 + dx;
+    % x0 = x;
+    x0 = x0 + dx;
+    x = x0;
     k = k + 1;
 end
 % fprintf('Nghiem cua phuong trinh: %.3f', x);

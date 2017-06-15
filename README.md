@@ -36,7 +36,11 @@
 
 - Hệ phương trình Lorenz 3 PT sử dụng RK4 :heavy_check_mark:
 
+## 5. Phương pháp sai phân - Phương trình truyền nhiệt :heavy_check_mark:
 
+- Contributor: [hungad96](https://github.com/hung96ad)
+
+---
 Phụ lục
 ---
 
@@ -55,3 +59,8 @@ Bài tập môn phương pháp tính và Matlab, các thành viên trong nhóm:
 3. Nguyễn Văn Thành Dũng - TT2
 4. Trần Thị Thanh Tâm - TT2
 5. Trương Khánh Toàn - TT1
+
+TODO
+---
+
+- Python Version

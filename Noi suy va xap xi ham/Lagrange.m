@@ -8,6 +8,9 @@ function P = Lagrange(a,b)
 %   b = [17 17.5 76 210.5 1970]
 %   Lagrange(a, b)
 
+% NOTE:
+%   De lap trinh nhung neu them moc noi suy thi phai tinh lai toan bo --> Newton
+
 syms x;
 n = length(a);
 if length(a) ~= length(b)

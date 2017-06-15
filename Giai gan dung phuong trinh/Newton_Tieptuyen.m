@@ -12,7 +12,7 @@ function [x, k] = Newton_Tieptuyen(fun, m1, M2, x0, esp, kmax)
 %   fun = @(x) x^4 - 3*x^2 + 75*x - 10000
 %   truyen theo symbolic expression: 
 %       fun = x^4 - 3*x^2 + 75*x - 10000
-%   Newton_Tieptuyen(fun, dfun, -11, -10, -11, 1e-5, 1000)
+%   Newton_Tieptuyen(fun, -11, -10, -11, 1e-5, 1000)
 
 if nargin < 6
     kmax = 1e+3;
@@ -21,18 +21,28 @@ if nargin < 5
     esp = 1e-5;
 end
 
-syms a;
 fun2 = sym(fun);  % chuyen tu function-handle sang symbolic expression
 dfun = diff(fun2);
 delta = sqrt(2*m1*esp/M2);
+
+% WHILE version
 k = 1;
 x = x0 - subs(fun, x0)/subs(dfun, x0);
-
 while (abs(x-x0) >= delta) && (k < kmax)
     x0 = x;
     x = x0 - subs(fun, x0)/subs(dfun, x0);
     k = k + 1;
 end
+
+% FOR version
+% for k = 1:kmax
+% 	x = x0;
+% 	x0 = x0 - subs(fun, x0) / subs(dfun, x0);
+% 	if abs(x - x0) < esp
+% 		x = x0;
+% 		break;
+% 	end
+% end
 
 % format qua dai nen chuyen x sang kieu `double`
 x = double(x);

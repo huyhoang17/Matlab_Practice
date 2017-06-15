@@ -24,6 +24,12 @@ else
    end
    P=0;
    k=1;
+   % Thuc hien bang sai phan
+   % f(i, i) la cac he so C0, C1, C2, ...Cn
+   % k la phuong trinh theo x, vi du
+   % phi1(x) = (x - x0) / h;
+   % phi2(x) = (x - x0) * (x - x1) / (h^2 * 2!)
+   % phin(x) = (x - x0) * ... * (x - x_n-1) / (h^n * n!)
    for i=1:n
        P=P+f(i,i)*k;
        k=(x-a(i))*k;

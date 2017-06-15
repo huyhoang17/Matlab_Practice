@@ -33,7 +33,9 @@ for k = 1:kmax
   for i = 2:n-1
     x(i) = b(i) - A(i, 1:i-1) * x0(1:i-1) - A(i, i+1:n) * x0(i+1:n); 
   end
-  x(n) = b(n) - A(n, 1:n-1) * x0(1:n-1);     
+  x(n) = b(n) - A(n, 1:n-1) * x0(1:n-1);
+
+  % if [1;1;...;1] ~ if True
   if max(abs(x - x0)) < err*(1-q)/q  % sai so tuong doi: x_k vs x_k+1
     break;
   else
